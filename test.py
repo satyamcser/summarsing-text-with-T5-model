@@ -8,16 +8,16 @@ import streamlit as st
 # Function to load dataset
 def load_xsum_dataset():
     # Specify an absolute path for the cache directory
-    cache_dir = '/main/data/'
+    #cache_dir = '/main/data/'
 
     # Create the cache directory if it doesn't exist
-    os.makedirs(cache_dir, exist_ok=True)
+    #os.makedirs(cache_dir, exist_ok=True)
 
     # Loading the dataset
     xsum_dataset = load_dataset(
         "xsum",
         version="1.2.0",
-        cache_dir=cache_dir
+        #cache_dir=cache_dir
     )
 
     return xsum_dataset
@@ -30,7 +30,7 @@ def summarize_text(input_text):
         min_length=40,
         max_length=60,
         truncation=True,
-        model_kwargs={"cache_dir": '/main/'},
+        #model_kwargs={"cache_dir": '/main/'},
     )
 
     # Generate the summary
