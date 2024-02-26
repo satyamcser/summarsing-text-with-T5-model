@@ -8,7 +8,7 @@ import streamlit as st
 # Function to load dataset
 def load_xsum_dataset():
     # Specify an absolute path for the cache directory
-    cache_dir = '/home/kali/Documents/Hugging_Face/data'
+    cache_dir = '/data/'
 
     # Create the cache directory if it doesn't exist
     os.makedirs(cache_dir, exist_ok=True)
@@ -30,7 +30,7 @@ def summarize_text(input_text):
         min_length=40,
         max_length=60,
         truncation=True,
-        model_kwargs={"cache_dir": '/home/kali/Documents/Hugging_Face/'},
+        model_kwargs={"cache_dir": '/Hugging_Face/'},
     )
 
     # Generate the summary
