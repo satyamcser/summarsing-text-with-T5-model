@@ -1,6 +1,6 @@
-transformers
-datasets
-streamlit
-torch
+pip install transformers
+pip install datasets
+pip install streamlit
+pip install torch
 
 
