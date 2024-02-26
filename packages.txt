@@ -2,6 +2,5 @@ transformers
 datasets
 streamlit
 torch
-sacremoses==0.0.53
-torch torchvision torchaudio
+
 
