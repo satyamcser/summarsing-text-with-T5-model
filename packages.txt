@@ -1,6 +1,4 @@
-transformers[torch]
-datasets==2.17.1
-
-
-
-
+streamlit
+replicate
+python-dotenv
+openai
