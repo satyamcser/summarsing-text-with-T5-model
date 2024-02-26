@@ -1,5 +1,7 @@
 # Text Summarization Using Large Language Models (LLMs) with Hugging Face and Streamlit by Satyam
 
+## Check App: https://t5modelsummary.streamlit.app/
+
 ## Overview
 This repository provides an implementation of a text summarization application using Large Language Models (LLMs) with Hugging Face and Streamlit. The code demonstrates how to leverage Hugging Face's pre-trained models, specifically the T5 model, for text summarization. The application is built using Streamlit, allowing users to input text and obtain summarized output.
 
