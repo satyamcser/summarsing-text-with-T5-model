@@ -1,3 +1,4 @@
-streamlit==1.9.0
-torch==1.9.0
-datasets=1.9.0
+streamlit
+torch
+datasets
+transformers
