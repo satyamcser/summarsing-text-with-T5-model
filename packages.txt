@@ -1,6 +1,6 @@
-pip install transformers
-pip install datasets
-pip install streamlit
-pip install torch
+transformers[torch]
+datasets==2.17.1
+
+
 
 
